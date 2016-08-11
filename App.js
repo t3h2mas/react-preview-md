@@ -20,16 +20,21 @@ class App extends React.Component {
     return (
     <div>
       <h1 className="text-center">Markdown Preview ft. React.js {this.state.err}</h1>
-        <textarea
-          onChange={this.update}
-          placeholder = '[ markdown goes here ]'
-          className="marked">
-        </textarea>
-        <div dangerouslySetInnerHTML={this.state.output} className="html">
-        </div>
+        <Marked update={this.update} />
+        <Html output={this.state.output} />
     </div>
     );
   }
 }
+
+const Marked = props => <textarea
+          onChange={props.update}
+          placeholder = '[ markdown goes here ]'
+          className="marked">
+        </textarea>
+
+const Html = props => <div
+          dangerouslySetInnerHTML={props.output}
+          className="html"></div>
 
 export default App;
