@@ -1,6 +1,8 @@
 # react-preview-md
 Preview markdown w/ React and Marked
 
+![preview](https://github.com/t3h2mas/react-preview-md/blob/master/img/react-md.png)
+
 ## get started
 
 ### dependencies
