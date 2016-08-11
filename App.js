@@ -6,7 +6,7 @@ class App extends React.Component {
   constructor(){
     super();
     this.state = {
-      input: '[ enter markdown ]',
+      input: '',
       output: {__html: ''},
       err: ''
     };
