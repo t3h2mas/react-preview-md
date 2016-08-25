@@ -3,6 +3,10 @@ Preview markdown w/ React and Marked
 
 ![preview](https://github.com/t3h2mas/react-preview-md/blob/master/img/react-md.png)
 
+### see it live
+
+[https://t3h2mas.github.io/react-preview-md/](https://t3h2mas.github.io/react-preview-md/)
+
 ## get started
 
 ### dependencies
